@@ -1,0 +1,41 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "build",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "Build Svelte front-end",
+			"detail": "rollup -c"
+		},
+		{
+			"type": "npm",
+			"script": "dev",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "Compile and run entire project",
+			"detail": "rollup -c -w"
+		},
+		{
+			"type": "cargo",
+			"group": "build",
+			"subcommand": "build",
+			"problemMatcher": [
+				"$rustc"
+			],
+			"label": "Build Rust back-end",
+			"detail": "cargo build"
+		},
+		{
+			"type": "cargo",
+			"group": "build",
+			"subcommand": "run",
+			"problemMatcher": [
+				"$rustc"
+			],
+			"label": "Run entire application",
+			
+		}
+	]
+}
