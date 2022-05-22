@@ -3,6 +3,6 @@
 
 # Node
 /node_modules/
-/www/build/
+/www/public/build/
 
 .DS_Store

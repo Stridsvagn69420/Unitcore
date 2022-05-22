@@ -1,11 +1,14 @@
 build:
-	npm run build
+	@npm run build
+
+run:
+	@npm run dev
 
 start:
-	npm start
+	@npm start
 
 dev:
-	num run dev
+	@num run dev
 
 check:
-	npm run check
+	@npm run check
