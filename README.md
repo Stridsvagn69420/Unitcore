@@ -1,5 +1,5 @@
-# Homepage
-The Source Code for my Profile Homepage. It uses Svelte for the GUI and Rocket for the back-end server.
+# Website
+The Source Code for my Website. It uses Svelte for the GUI and Rocket for the back-end server.
 
 # Developing
 ## Prerequists
