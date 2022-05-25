@@ -1,7 +1,15 @@
+release:
+        @npm run check
+        @npm run build
+        @cargo build --release
+
 build:
 	@npm run build
 
-run:
+compile:
+	@cargo build
+
+dev:
 	@npm run dev
 
 start:
