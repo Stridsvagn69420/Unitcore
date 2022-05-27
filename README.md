@@ -1,5 +1,5 @@
 # Website
-The Source Code for my Website. It uses Svelte for the GUI and Actix-Web for the back-end server.
+The Source Code for my Website. It uses Svelte for the GUI and Rocket for the back-end server.
 
 # Developing
 ## Prerequists
