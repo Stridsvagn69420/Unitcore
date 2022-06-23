@@ -1,4 +1,4 @@
-# Website
+# Unitcore
 The Source Code for my Website. It uses Svelte for the GUI and Rocket for the back-end server.
 
 # Developing
@@ -7,8 +7,8 @@ The Source Code for my Website. It uses Svelte for the GUI and Rocket for the ba
 * Node.js: Install it at [nodejs.org](https://nodejs.org/) or [via a package manager](https://nodejs.org/en/download/package-manager/)
 
 ## Downloading
-1. Clone the repo via `git clone https://github.com/Stridsvagn69420/Homepage`
-2. Move into the directory with `cd Homepage`
+1. Clone the repo via `git clone https://github.com/Stridsvagn69420/Unitcore.git`
+2. Move into the directory with `cd Unitcore`
 3. Install every dependency with `npm install` and `cargo fetch`
 
 ## Tooling
